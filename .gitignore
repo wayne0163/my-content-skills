@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gemini CLI Skill Packages
+# We version control the source folders, but not the binary packages
+*.skill
+
+# Temporary files
+*.tmp
+*.log
+/Users/lidawei/.gemini/tmp/
+
+# If you want to keep references folder but ignore specific large files
+# personal-style-rewriter/references/*.pdf
+# personal-style-rewriter/references/*.docx
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
