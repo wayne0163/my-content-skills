@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# virtualenv
+*.env
+
+# JetBrains
+.idea/
+
+# Node
+node_modules/
+
+# coverage
+.coverage
+htmlcov/
+
+# temp
+*.tmp
+*.swp
