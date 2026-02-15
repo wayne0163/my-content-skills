@@ -2,10 +2,9 @@
 name: news-content-factory
 metadata:
   version: 1.0.0
+  author: You
+  tags: [news, content-generation, analysis, writing, gemini-cli, cursor, codex]trigger_keywords: ["今日新闻", "新闻解读", "写新闻分析", "news analysis", "热点写作", "新闻选题", "今日热点", "写热点", "新闻评论"]
 description: 从新闻搜索到内容生成的完整工作流：搜索当日新闻→多维度解读→按指定风格生成文章。专为Gemini CLI长上下文优化，支持单会话完成全流程。
-author: You
-tags: [news, content-generation, analysis, writing, gemini-cli, cursor, codex]
-trigger_keywords: ["今日新闻", "新闻解读", "写新闻分析", "news analysis", "热点写作", "新闻选题", "今日热点", "写热点", "新闻评论"]
 ---
 
 ## Objective
@@ -211,6 +210,9 @@ A. 使用预设模板（快速启动）
 [5] 犀利评论型（模仿自媒体/意见领袖）
     → 特征：观点鲜明、不怕得罪人、排比反问、战斗感
 
+[6] 理智随性型（模仿猫笔刀风）
+    → 特征：理性分析、随性表达、轻松幽默、观点独特
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 B. 自定义配置（精细控制）
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -231,7 +233,7 @@ C. 混合模式（推荐）
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-请输入选择（A1-A5 / B / C）：
+请输入选择（A1-A6 / B / C）：
 ```
 
 **如果用户提供范文或选择B（自定义）**：

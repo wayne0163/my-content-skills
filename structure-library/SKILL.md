@@ -2,10 +2,9 @@
 name: structure-library
 metadata:
   version: 1.0.0
+  author: You
+  tags: [structure, outline, template, writing-framework, gemini-cli]trigger_keywords: ["/structure", "文章结构", "用模板", "outline", "结构库", "框架"
 description: 存储和调用常用文章结构模板。提供多种论证框架，供 news-content-factory 调用。
-author: You
-tags: [structure, outline, template, writing-framework, gemini-cli]
-trigger_keywords: ["/structure", "文章结构", "用模板", "outline", "结构库", "框架"]
 ---
 
 ## Objective
