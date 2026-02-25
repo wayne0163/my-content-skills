@@ -1,0 +1,9 @@
+# Qwen Code 配置
+.qwen/
+
+# OpenClaw 工作目录
+.openclaw/
+
+# 其他可能的临时文件
+*.log
+*.tmp
